@@ -1,0 +1,5 @@
+<?php
+
+ $pasta = "arquivos/";
+
+?>
