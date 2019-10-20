@@ -76,7 +76,7 @@
 
         label:hover::after{
             
-            background-color: #cc0000;
+            background-color: #cccc;
             transition: .4s;
 
         }
