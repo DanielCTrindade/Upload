@@ -132,10 +132,7 @@
         $d -> read();
         print "<div class='imagens'>";
         while($arquivo = $d -> read()){
-            //if(in_array($arquivo,[".",".."])){
-           //     continue;
-          // }
-            //var_dump($arquivo);
+
             print "<a href='remover.php?arquivo={$arquivo}'><img src='{$pasta}{$arquivo}'/></a>";
 
         }
